@@ -1,0 +1,20 @@
+Autoilumittari sovellus
+
+- Auto A = 3L/100km
+- Auto B = 3,5L/100km
+- Auto C = 4L/100km
+
+- Autojen bensankulutus kasvaa 1,009 kertoimella ( x ) kun nopeus kasvaa 1km/h
+
+
+Sovelluksen toiminnallisuus
+- Tulee pystyä näyttämään vertailu matka-ajan ja polttoaineen kulutuksen välillä kahden eri valitun nopeuden
+  mukaan: Käyttäjä ilmoittaa saman matkustettavan etäisyyden samalla kulkuneuvotyypillä (Auto A, B tai C)
+  eri nopeuksilla, ja sovellus laskee miten paljon nopeammin käyttäjä on perillä ja kuinka paljon enemmän
+  polttoainetta tähän kuluu. Etäisyys ja kulkuneuvo tulee olla aina sama ! 
+- UI tulee näyttää molemmista annetuista matkanopeuksista käytetty aika ja polttoaine, sekä näiden kahden ero
+
+- Sovelluksessa tulee pystyä tarkastelemaan kolmen (Auto A, B ja C) tulokset.
+
+INPUT 
+1. Matkustettava etäisyys, millä autolla ja millä nopeuksilla
