@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: rgb(61, 61, 65);
+  padding-bottom: 40px;
 }
 
 h1, h2, label, p {
