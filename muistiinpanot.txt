@@ -1,5 +1,6 @@
 Autoilumittari sovellus
 
+Autojen kulutus nopeudella 1km/h
 - Auto A = 3L/100km
 - Auto B = 3,5L/100km
 - Auto C = 4L/100km
@@ -17,4 +18,26 @@ Sovelluksen toiminnallisuus
 - Sovelluksessa tulee pystyä tarkastelemaan kolmen (Auto A, B ja C) tulokset.
 
 INPUT 
-1. Matkustettava etäisyys, millä autolla ja millä nopeuksilla
+1. Matkustettava etäisyys(km), millä autolla(auto A, auto B ja auto C) ja millä nopeuksilla 
+(km/h) (nopeus1 ja nopeus2)
+
+STATE ARVOT
+- Auto
+- Kuljettava matka
+- nopeus1 ja nopeus2
+
+MATKA LASKUT
+- Aika x nopeus / matka = keskinopeus
+- aika = nopeus / matka
+
+- Bensankulutus : Auto A, 3 L/100km = 
+
+Näytettävät datat
+- Matka aika
+- Bensankulutus annetulla matkalla ja valitulla autolla
+
+
+
+
+
+asd

@@ -121,27 +121,27 @@ function App() {
             <Table striped bordered hover variant="dark">
               <thead>
                 <tr>
-                  <th>AUTO</th>
+                  <th>AUTO ({cartype})</th>
                   <th>Matka-aika(min)</th>
-                  <th>Bensankulutus</th>
+                  <th>Bensankulutus (L/100km)</th>
                   <th>ASD</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>Nopeus 1</td>
-                  <td></td>
-                  <td></td>
+                  <td>{travelTime1*60}</td>
+                  <td>{car*kulutus}</td>
                   <td>ASD</td>
                 </tr>
                 <tr>
                   <td>Nopeus 2</td>
-                  <td></td>
-                  <td></td>
+                  <td>{travelTime2*60}</td>
+                  <td>{car*kulutus2}</td>
                   <td>ASD</td>
                 </tr>
                 <tr>
-                  <td>3</td>
+                  <td>ASD</td>
                   <td colSpan="2">Larry the Bird</td>
                   <td>ASD</td>
                 </tr>
@@ -154,7 +154,7 @@ function App() {
             <Col>
               <h2>TIETOA</h2>
               <CardDeck>
-                <Card>
+                <Card border="danger" style={{ width: '25rem' }} bg="dark">
                   <Card.Body>
                     <Card.Title>AUTOT</Card.Title>
                     <Card.Text>
@@ -166,13 +166,13 @@ function App() {
                     </Card.Text>
                   </Card.Body>
                 </Card>
-                <Card>
+                <Card border="danger" style={{ width: '25rem' }} bg="dark">
                   <Card.Body>
                     <Card.Title>OHJELMA</Card.Title>
                     <Card.Text></Card.Text>
                   </Card.Body>
                 </Card>
-                <Card>
+                <Card border="danger" style={{ width: '25rem' }} bg="dark">
                   <Card.Body>
                     <Card.Title>INFO</Card.Title>
                     <Card.Text>asd</Card.Text>
